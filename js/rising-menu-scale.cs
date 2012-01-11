@@ -8,13 +8,13 @@ $ ->
         do (id) ->
           space_id = "div#rsin#{id}"
           height = 100 - Math.round(100 / (Math.pow(2, (Math.abs(option_number - id)))))
-          $(space_id).animate { "height": "#{height}px" }
+          $(space_id).stop().animate { "height": "#{height}px" }
     ), (->))
   $("ul#rs").hover(null,
     (->
       for id in [1..5]
         do (id) ->
           space_id = "div#rsin#{id}"
-          $(space_id).animate { "height": "100px" }
+          $(space_id).stop().animate { "height": "100px" }
     )
   )
