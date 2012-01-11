@@ -1,5 +1,5 @@
 $ ->
-  $("a").hover(
+  $("a.afm").hover(
     (->
       option_number = $(this).attr("id")[2..3]
       space_id = "div#in#{option_number}"
