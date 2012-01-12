@@ -21,3 +21,10 @@ html, body { margin: 0px; padding: 0px; font-family: sans-serif; }
 #rising-menu-scale ul li a { padding: 10px; display: block; background-color: black; color: white; text-decoration: none; }
 #rising-menu-scale .space-above-menu-item { height: 100px; background-color: black; }
 #rising-menu-scale .inner-space { height: 100px; background-color: white; }
+
+#rising-menu-image { margin: 10px 0px 0px 10px; font-size: 90%; }
+#rising-menu-image ul { margin: 0px; padding: 0px; overflow: auto; background: url('../images/kitten.jpg') repeat-y 0% 100%; }
+#rising-menu-image ul li { margin: 0px; padding: 0px; float: left; list-style-type: none; border: 1px solid black; width: 140px; }
+#rising-menu-image ul li a { padding: 10px; display: block;  color: white; text-decoration: none; }
+#rising-menu-image .space-above-menu-item { height: 100px; }
+#rising-menu-image .inner-space { height: 100px; }
