@@ -9,6 +9,7 @@ $ ->
       # Remove the inverted kitten background image from option.
       option_id = "a#riop#{option_number}"
       $(option_id).css('background-image', 'none')
+      $(option_id).css('color', "black")
     ), (->
       # Bring back the upper space overlay.
       option_number = $(this).attr("id")[4..5]
